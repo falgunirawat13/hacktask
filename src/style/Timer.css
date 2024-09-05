@@ -1,0 +1,62 @@
+.timer-container {
+  text-align: center; /* Center align text and timer */
+}
+
+.starts-in .ended-on {
+  font-size: 14px; /* Adjust as needed */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px; /* Space between text and timer */
+}
+
+.time-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer {
+  font-size: 18px; /* Adjust as needed */
+  font-weight: bold;
+  color: #333;
+}
+
+.time-row {
+  display: flex;
+  gap: 0.5rem; /* Space between time units */
+  margin-bottom: 0.5rem; /* Space between time values and labels */
+}
+
+.time-value {
+  font-size: 110%; /* Adjust as needed */
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.labels-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.9rem;
+}
+
+.time-label2 {
+  font-size: 70%;
+  color: #666;
+  text-align: center; /* Center align labels */
+  margin-left: 0%;
+}
+
+.time-label1 {
+  font-size: 70%;
+  color: #666;
+  text-align: center; /* Center align labels */
+  margin-left: 12%;
+}
+
+.time-label3 {
+  font-size: 70%;
+  color: #666;
+  text-align: center; /* Center align labels */
+
+  margin-left: -1%;
+}

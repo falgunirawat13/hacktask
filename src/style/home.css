@@ -1,0 +1,323 @@
+/* Main Section */
+.mainSection {
+  display: flex;
+  background-color: rgba(0, 49, 69, 255);
+  justify-content: space-around;
+  align-items: center;
+  max-height: 1200px;
+  padding-bottom: 70px;
+}
+
+.rectanglenew {
+  margin-left: 10%;
+  margin-right: 1%;
+  margin-top: -12%;
+}
+.contentBox {
+  width: 70%;
+  padding-left: 60px;
+  padding-top: 6%;
+  padding-bottom: 15px;
+}
+
+.contentBox h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.contentBox p {
+  color: white;
+  font-size: 130%;
+}
+
+.btnBox {
+  margin-top: 2.5rem;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: white;
+  width: 34%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btnBox-link {
+  text-decoration: none;
+  color: rgba(0, 49, 69, 1);
+}
+
+.imageBox {
+  padding-top: 6%;
+  padding-left: 40px;
+  padding-right: 10%;
+}
+
+img {
+  height: 20%;
+}
+
+/* Section 2 */
+.footer1 {
+  background-color: rgba(0, 42, 59, 1);
+  height: 130px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-top: 1px solid white;
+}
+
+.Content1,
+.Content2,
+.Content3 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  font-size: 20px;
+}
+
+.text1 h2 {
+  font-size: 28px;
+  margin-bottom: 3px;
+}
+
+.text1 h4 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+/* Vertical lines between content boxes */
+.Content1::after,
+.Content2::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  right: 0;
+  width: 1px;
+  background-color: white;
+}
+
+.Content3::after {
+  display: none;
+}
+
+.image1 img {
+  height: 40px;
+  margin-right: 15px;
+}
+
+/* Section 3 */
+.WhyAI {
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.WhyAI h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.spanAI {
+  color: green;
+}
+
+/* Section 4 */
+.explore {
+  background-color: rgba(0, 42, 59, 1);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-top: 1px solid white;
+}
+
+.header-container {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container h1 {
+  color: white;
+  font-size: 150%;
+}
+
+.searchbar-container {
+  margin-top: 2%;
+  margin-left: 5%;
+  display: flex;
+}
+
+.Finalcards {
+  background-color: rgba(0, 49, 69, 255);
+  padding-bottom: 5%;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .contentBox {
+    width: 80%;
+    margin-left: 0;
+    padding-left: 20px;
+  }
+
+  .btnBox {
+    width: 50%;
+  }
+
+  .imageBox {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mainSection {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .rectanglenew{
+    display: none;
+  }
+
+  .contentBox {
+    width: 90%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .btnBox {
+    width: 40% !important;
+    text-align: center !important;
+  }
+
+  .imageBox {
+    padding-right: 5%;
+  }
+
+  .searchbar-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .Content1,
+  .Content2,
+  .Content3 {
+    width: 100%;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+  .header-container h1 {
+    font-size: 120%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainSection {
+    padding-bottom: 10px;
+  }
+
+  .contentBox {
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 0;
+  }
+
+  .btnBox {
+    width: 100%;
+  }
+
+  .imageBox {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer1 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .Content1,
+  .Content2,
+  .Content3 {
+    width: 100%;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+  .Content1::after,
+  .Content2::after {
+    display: none; /* Remove vertical bars */
+  }
+
+  .text1 h2 {
+    font-size: 24px;
+  }
+
+  .text1 h4 {
+    font-size: 16px;
+  }
+
+  .header-container h1 {
+    font-size: 100%;
+    margin-top: 10%;
+  }
+
+  .rectanglenew{
+    display: none;
+  }
+
+  .searchbar-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    max-height: 400px;
+  }
+
+  .explore {
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .btnBox {
+    font-size: 14px;
+  }
+
+  img {
+    height: auto;
+  }
+
+  .WhyAI h1 {
+    font-size: 20px;
+  }
+  .Content1,
+  .Content2,
+  .Content3 {
+    width: 100%;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+  .Content2{margin-left: -12%;
+  }
+
+  .rectanglenew{
+    display: none;
+  }
+  .Content1::after,
+  .Content2::after {
+    display: none; /* Ensure no vertical bars on small screens */
+  }
+}

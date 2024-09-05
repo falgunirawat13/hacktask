@@ -1,0 +1,42 @@
+/* General Card Styling */
+.custom-card,
+.custom-card1 {
+  max-width: 900px; /* Set max width for the card */
+  margin: 0 auto; /* Center the card horizontally */
+  width: 90%;
+  height: 40%;
+}
+
+.CardLayout {
+  margin-left: 12%;
+  margin-right: 10%;
+}
+
+/* Card Body Styling */
+.custom-card .mdb-card-body,
+.custom-card1 .mdb-card-body {
+  padding: 1rem; /* Adjust padding inside the card */
+  text-align: left !important;
+}
+
+/* Card Title Styling */
+.custom-card-title {
+  font-size: 1.25rem; /* Adjust font size */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+  text-align: left !important;
+}
+
+/* Card Text Styling */
+.custom-card-text {
+  font-size: 0.875rem; /* Adjust font size */
+  color: #555;
+  text-align: left !important;
+}
+.imagecard {
+  width: 30px;
+  height: 30px;
+  margin-right: 100%;
+  margin-bottom: 10px;
+}

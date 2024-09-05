@@ -1,0 +1,104 @@
+.headerform {
+  background-color: #f9f9f9;
+  width: 100%;
+  padding: 2%;
+}
+
+.headerform h1 {
+  font-size: 180%;
+  font-weight: 300;
+  color: black;
+}
+
+.form-container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.form-input {
+  display: block;
+  width: 30%;
+  padding: 0.5rem;
+  margin-top: 1%;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-textarea {
+  display: block;
+  width: 50%;
+  padding: 0.5rem;
+  margin-top: 1%;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  height: 150px; /* Set a specific height */
+  resize: vertical; /* Allow users to resize the textarea vertically */
+}
+
+.form-button {
+  background-color: #28a745;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.form-button:hover {
+  background-color: #218838;
+}
+
+.submitted-data {
+  margin-top: 1rem;
+  background-color: #e9e9e9;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+
+input[type="file"] {
+  width: 100%; /* Ensure file input fits within form */
+}
+
+.submitted-data img {
+  display: block;
+  margin-top: 1rem;
+}
+
+.form-input1 {
+  display: block;
+  width: 20%;
+  padding: 0.5rem;
+  margin-top: 1%;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-input-image{
+  display: block;
+  width: 20%;
+  padding: 0.5rem;
+  margin-top: 1%;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+
+}

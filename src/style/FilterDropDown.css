@@ -1,0 +1,92 @@
+.filter-btn {
+  background-color: white;
+  border-radius: 10px;
+  height: 150%;
+  width: 180%;
+  padding: 10%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 10%;
+}
+.filter-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-btn {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.dropdown-sectionfilter {
+  margin-bottom: 1rem;
+}
+
+.dropdown-sectionfilter h4 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.dropdown-sectionfilter label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  justify-content: flex-start;
+}
+
+.dropdown-sectionfilter label input[type="checkbox"] {
+  margin-right: -40%; /* Reduce the space between checkbox and text */
+  margin-left: -45%; /* Keep the checkbox aligned to the extreme left */
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 0.5rem 0;
+}
+
+.selected-filters {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.filter-button {
+  background-color: #64748b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filter-button .remove-filter {
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.filter-button:hover {
+  background-color: #475569;
+}

@@ -1,0 +1,156 @@
+.search-bar-container {
+  width: 100%;
+  max-width: 600px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.search-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input-wrapper {
+  background-color: white;
+  flex: 1;
+  border-radius: 10px;
+  height: 2.5rem;
+  padding: 0 15px;
+  display: flex;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.filter-dropdown-container {
+  display: flex;
+  align-items: center;
+}
+
+.selected-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.filter-button {
+  background-color: #6c757d;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.filter-button:hover {
+  background-color: #0056b3;
+}
+
+.filter-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  background-color: white;
+  color: #6c757d; /* Text color */
+  border-radius: 50%; /* Makes it a circle */
+  font-size: 14px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+  .search-bar-container {
+    max-width: 100%;
+    padding: 0 15px; /* Add some padding on smaller screens */
+  }
+
+  .search-bar-row {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 10px;
+  }
+
+  .input-wrapper {
+    width: 50%; 
+
+  }
+
+  input {
+    font-size: 1rem; /* Smaller font size for input */
+  }
+
+  .filter-dropdown-container {
+    width: 100%; /* Full width for filter dropdown */
+  }
+
+  .selected-filters {
+    flex-direction: column; /* Stack filter buttons vertically */
+  }
+
+  .filter-button {
+    font-size: 12px; /* Smaller font size for filter buttons */
+    padding: 8px 15px; /* Adjust padding for smaller screens */
+  }
+
+  .filter-close {
+    width: 16px; /* Smaller close button */
+    height: 16px;
+    font-size: 12px; /* Smaller text for close button */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .search-bar-container {
+    padding: 0 10px; /* Reduce padding on very small screens */
+    height: 100%;
+    margin-top: 4%;
+  }
+
+  .input-wrapper {
+    height: 8rem; /* Smaller height for input wrapper */
+    width: 80%;
+  }
+
+  input {
+    font-size: 0.875rem; /* Smaller font size for input */
+    padding: 5%
+  }
+
+  .filter-button {
+    font-size: 10px; /* Even smaller font size for filter buttons */
+    padding: 6px 6px; /* Adjust padding for very small screens */
+    width:max-content;
+    align-items: center;
+    
+  }
+
+  .filter-close {
+    width: 14px; /* Even smaller close button */
+    height: 14px;
+    font-size: 10px; /* Smaller text for close button */
+  }
+
+  .filter-dropdown-container {
+    width: 50%; /* Full width for filter dropdown */
+  }
+  .selected-filters {
+    align-items: center;
+  }
+}
